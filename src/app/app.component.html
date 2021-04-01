@@ -330,22 +330,77 @@
 <div class="content" role="main">
 
 
-<!-- Currently Not opening List.
+
 
 
   <h4>Basic mat-select</h4>
   <mat-form-field>
     <mat-label>Gags</mat-label>
     <mat-select placeholder="gag type" name = "gags" [(value)]="selected">
-
       <mat-option *ngFor="let gag of gags" [value]="gag.value">
         {{ gag.viewValue }}
+
+
       </mat-option>
     </mat-select>
   </mat-form-field>
   <p>You selected: {{selected}}</p>
 
--->
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </button>
+        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li class="dropdown-item"><a href="#">Test</a></li>
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-submenu">
+              <a  class="dropdown-item" tabindex="-1" href="#">Sound</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a tabindex="-1" href="#">Kazoo</a></li>
+                <li class="dropdown-item"><a href="#">Bike Horn</a></li>
+                <li class="dropdown-item"><a href="#">Whistle</a></li>
+                <li class="dropdown-item"><a href="#">Bugle</a></li>
+                <li class="dropdown-item"><a href="#">Aoogah</a></li>
+                <li class="dropdown-item"><a href="#">Elephant Trunk</a></li>
+                <li class="dropdown-item"><a href="#">Foghorn</a></li>
+                <li class="dropdown-item"><a href="#">Opera Singer</a></li>
+              </ul>
+            </li>
+    
+            <li class="dropdown-submenu">
+              <a  class="dropdown-item" tabindex="-1" href="#">Throw</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a tabindex="-1" href="#">Cupcake</a></li>
+                <li class="dropdown-item"><a href="#">Fruit Pie Slice</a></li>
+                <li class="dropdown-item"><a href="#">Cream Pie Slice</a></li>
+                <li class="dropdown-item"><a href="#">Birthday Cake Slice</a></li>
+                <li class="dropdown-item"><a href="#">Whole Fruit Pie</a></li>
+                <li class="dropdown-item"><a href="#">Whole Cream Pie</a></li>
+                <li class="dropdown-item"><a href="#">Birthday Cake</a></li>
+                <li class="dropdown-item"><a href="#">Wedding Cake</a></li>
+              </ul>
+            </li>
+     
+            <li class="dropdown-submenu">
+              <a  class="dropdown-item" tabindex="-1" href="#">Squirt</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a tabindex="-1" href="#">Squirting Flower</a></li>
+                <li class="dropdown-item"><a href="#">Glass of Water</a></li>
+                <li class="dropdown-item"><a href="#">Squirt Gun</a></li>
+                <li class="dropdown-item"><a href="#">Water Balloon</a></li>
+                <li class="dropdown-item"><a href="#">Seltzer Bottle</a></li>
+                <li class="dropdown-item"><a href="#">Fire Hose</a></li>
+                <li class="dropdown-item"><a href="#">Storm Cloud</a></li>
+                <li class="dropdown-item"><a href="#">Geyser</a></li>
+              </ul>
+            </li>
+          </ul>
+    </div>
+
+
+<!--
+
   <h4>Gag Select (Basic)</h4>
   <mat-form-field>
     <mat-label>Gags</mat-label>
@@ -355,6 +410,10 @@
       </option>
     </select>
   </mat-form-field>
+
+
+-->
+
   <!-- Resources -->
  
 

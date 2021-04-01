@@ -19,6 +19,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
     AppRoutingModule,
     MaterialModule,
     MatSelectModule,
+    FormsModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot([
 {path: '', component:ToonListComponent},
 

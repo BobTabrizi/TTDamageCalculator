@@ -21,7 +21,7 @@ export class AppComponent {
     { value: 'Lure', viewValue: 'Lure' },
   ];
   ngOnInit(){
-    this.selected = this.gags[1].value;
-    this.selectedGag = this.gags[1].value;
+    this.selected = this.gags[0].value;
+    this.selectedGag = this.gags[0].value;
   }
 }
