@@ -15,6 +15,7 @@
 
 </h3>
 
+
 <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Choose Gag
@@ -25,14 +26,14 @@
         <li class="dropdown-submenu">
           <a  class="dropdown-item" tabindex="-1" href="#">Sound</a>
           <ul class="dropdown-menu">
-            <li class="dropdown-item"><a tabindex="-1" href="#">Kazoo</a></li>
-            <li class="dropdown-item"><a href="#">Bike Horn</a></li>
-            <li class="dropdown-item"><a href="#">Whistle</a></li>
-            <li class="dropdown-item"><a href="#">Bugle</a></li>
-            <li class="dropdown-item"><a href="#">Aoogah</a></li>
-            <li class="dropdown-item"><a href="#">Elephant Trunk</a></li>
-            <li class="dropdown-item"><a href="#">Foghorn</a></li>
-            <li class="dropdown-item"><a href="#">Opera Singer</a></li>
+            <li class="dropdown-item"><a tabindex="-1" href="#" (click)="gagChoice('Kazoo',toon.id)">Kazoo</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Bike Horn',toon.id)">Bike Horn</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Whistle',toon.id)">Whistle</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Bugle',toon.id)">Bugle</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Aoogah',toon.id)">Aoogah</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Elephant Trunk',toon.id)">Elephant Trunk</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Foghorn',toon.id)">Foghorn</a></li>
+            <li class="dropdown-item"><a href="#"(click)="gagChoice('Opera Singer',toon.id)">Opera Singer</a></li>
           </ul>
         </li>
 
@@ -63,9 +64,17 @@
             <li class="dropdown-item"><a href="#">Geyser</a></li>
           </ul>
         </li>
+        
       </ul>
+      <p>You chose: {{toon.gag}}</p>
 </div>
+<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Prestige</label>
+  </div>
 </div>
+
+
 
 </div>
 

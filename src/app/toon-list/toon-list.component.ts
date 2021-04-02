@@ -10,6 +10,15 @@ export class ToonListComponent implements OnInit {
 
 toons = toons;
 
+gagString: String = "Hello";
+
+gagChoice(name:string,id:number): void {
+
+  console.log(id);
+  toons[id - 1].gag = name;
+  //this.gagString = name;
+}
+
   ngOnInit(): void {
   }
 

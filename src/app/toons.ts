@@ -1,7 +1,7 @@
 export const toons = [
     {
         id:1,
-        gag:'',
+        gag:'Flower',
         name:'Toon 1',
         prestige:'',
         organic:'',
