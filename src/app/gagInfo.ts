@@ -5,8 +5,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:2,
@@ -14,8 +14,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxrange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:3,
@@ -23,8 +23,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxrange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:4,
@@ -32,8 +32,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:5,
@@ -41,8 +41,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:6,
@@ -50,8 +50,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:7,
@@ -59,8 +59,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:8,
@@ -68,8 +68,8 @@ export const gagInfo = [
         gagType:'Toon-Up',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:''
+        minRange:0,
+        maxRange:0
     },
     {
         id:9,
@@ -149,8 +149,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -159,8 +159,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -169,8 +169,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -179,8 +179,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -189,8 +189,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -199,8 +199,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -209,8 +209,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -219,8 +219,8 @@ export const gagInfo = [
         gagType:'Lure',
         prestige:'',
         organic:'',
-        minRange:'',
-        maxRange:'',
+        minRange:0,
+        maxRange:0,
         knockBack:1.5
     },
     {
@@ -239,7 +239,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:5,
-        maxrange:16
+        maxRange:16
     },
     {
         id:27,
@@ -248,7 +248,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:9,
-        maxrange:20
+        maxRange:20
     },
     {
         id:28,

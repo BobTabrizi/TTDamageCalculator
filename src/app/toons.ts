@@ -5,6 +5,8 @@ export const toons = [
         name:'Toon 1',
         prestige:'',
         organic:'',
+        minRange:0,
+        maxRange:21
     },
     {
         id:2,
@@ -12,6 +14,8 @@ export const toons = [
         name:'Toon 2',
         prestige:'',
         organic:'',
+        minRange:0,
+        maxRange:60
     },
     {
         id:3,
@@ -19,6 +23,8 @@ export const toons = [
         name:'Toon 3',
         prestige:'',
         organic:'',
+        minRange:0,
+        maxRange:44
     },
     {
         id:4,
@@ -26,5 +32,7 @@ export const toons = [
         name:'Toon 4',
         prestige:'',
         organic:'',
+        minRange:0,
+        maxRange:51
     },
 ]

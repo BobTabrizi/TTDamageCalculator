@@ -20,6 +20,8 @@ gagChoice(gagNumber:number,id:number): void {
 
   console.log(id);
   toons[id - 1].gag = gagInfo[gagNumber - 1].gag;
+
+  toons[id - 1].maxRange = gagInfo[gagNumber -1].maxRange;
 }
 
   ngOnInit(): void {
