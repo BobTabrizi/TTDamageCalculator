@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { toons } from '../toons';
+import {gagInfo} from '../gagInfo';
 
 @Component({
   selector: 'app-toon-list',
@@ -9,14 +10,16 @@ import { toons } from '../toons';
 export class ToonListComponent implements OnInit {
 
 toons = toons;
+gagInfo = gagInfo;
 
 gagString: String = "Hello";
 
-gagChoice(name:string,id:number): void {
+
+
+gagChoice(gagNumber:number,id:number): void {
 
   console.log(id);
-  toons[id - 1].gag = name;
-  //this.gagString = name;
+  toons[id - 1].gag = gagInfo[gagNumber - 1].gag;
 }
 
   ngOnInit(): void {
