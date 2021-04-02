@@ -68,11 +68,36 @@
       </ul>
       <p>You chose: {{toon.gag}}</p>
       <p>Gag Damage: {{toon.maxRange}}</p>
+
+
 </div>
 <div class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Prestige</label>
+  
   </div>
+
+  <div class = "row bottomRow">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-danger btn-number"
+                (click)="damage = damage - 1" data-type="minus" data-field="quant[2]">
+                -
+    
+        </button>
+    </span>
+  <input type="text" name="quant[2]" class="form-control input-number"
+  [(ngModel)]="damage"  value="{{damage}}" >
+
+
+ 
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-success btn-number"
+                (click)="damage = damage + 1" data-type="plus" data-field="quant[2]">
+                +
+        </button>
+   
+</span>
+</div>
 </div>
 
 

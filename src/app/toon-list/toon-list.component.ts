@@ -14,6 +14,7 @@ gagInfo = gagInfo;
 
 gagString: String = "Hello";
 
+damage:number = 0;
 
 
 gagChoice(gagNumber:number,id:number): void {
