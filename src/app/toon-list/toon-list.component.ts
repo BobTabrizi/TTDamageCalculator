@@ -16,14 +16,21 @@ gagString: String = "Hello";
 
 damage:number = 0;
 
+maxlimitReached:boolean = false;
+minlimitReached:boolean = false;
+
 
 gagChoice(gagNumber:number,id:number): void {
 
   console.log(id);
   toons[id - 1].gag = gagInfo[gagNumber - 1].gag;
-
+  toons[id - 1].midRange = gagInfo[gagNumber - 1].midRange;
   toons[id - 1].maxRange = gagInfo[gagNumber -1].maxRange;
+  toons[id - 1].minRange = gagInfo[gagNumber -1].minRange;
 }
+
+
+
 
   ngOnInit(): void {
   }

@@ -6,6 +6,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -15,6 +16,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -24,6 +26,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -33,6 +36,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -42,6 +46,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -51,6 +56,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -60,6 +66,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -69,6 +76,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0
     },
     {
@@ -78,6 +86,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:18,
+        midRange:20,
         maxRange:65
     },
     {
@@ -87,6 +96,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:25,
+        midRange:30,
         maxRange:70
     },
     {
@@ -96,6 +106,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:40,
+        midRange:45,
         maxRange:90
     },
     {
@@ -105,6 +116,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:55,
+        midRange:65,
         maxRange:110
     },
     {
@@ -114,6 +126,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:75,
+        midRange:90,
         maxRange:135
     },
     {
@@ -123,6 +136,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:100,
+        midRange:140,
         maxRange:185
     },
     {
@@ -132,6 +146,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:160,
+        midRange:200,
         maxRange:245
     },
     {
@@ -141,6 +156,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:220,
+        midRange:240,
         maxRange:285
     },
     {
@@ -150,6 +166,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -160,6 +177,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -170,6 +188,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -180,6 +199,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -190,6 +210,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -200,6 +221,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -210,6 +232,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -220,6 +243,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:0,
+        midRange:0,
         maxRange:0,
         knockBack:1.5
     },
@@ -230,6 +254,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:3,
+        midRange:4,
         maxRange:14
     },
     {
@@ -239,6 +264,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:5,
+        midRange:7,
         maxRange:16
     },
     {
@@ -248,6 +274,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:9,
+        midRange:11,
         maxRange:20
     },
     {
@@ -257,6 +284,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:14,
+        midRange:16,
         maxRange:25
     },
     {
@@ -266,6 +294,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:19,
+        midRange:21,
         maxRange:30
     },
     {
@@ -275,6 +304,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:26,
+        midRange:32,
         maxRange:37
     },
     {
@@ -284,6 +314,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:35,
+        midRange:45,
         maxRange:65
     },
     {
@@ -293,6 +324,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:55,
+        midRange:60,
         maxRange:76
     },
     {
@@ -302,6 +334,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:3,
+        midRange:4,
         maxRange:4
     },
     {
@@ -311,6 +344,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:6,
+        midRange:7,
         maxRange:8
     },
     {
@@ -320,6 +354,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:10,
+        midRange:11,
         maxRange:12
     },
     {
@@ -329,6 +364,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:18,
+        midRange:20,
         maxRange:21
     },
     {
@@ -338,6 +374,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:27,
+        midRange:28,
         maxRange:30
     },
     {
@@ -347,6 +384,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:45,
+        midRange:50,
         maxRange:56
     },
     {
@@ -356,6 +394,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:60,
+        midRange:70,
         maxRange:80
     },
     {
@@ -365,6 +404,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:90,
+        midRange:100,
         maxRange:115
     },
     {
@@ -374,6 +414,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:3,
+        midRange:4,
         maxRange:12
     },
     {
@@ -383,6 +424,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:5,
+        midRange:6,
         maxRange:18
     },
     {
@@ -392,6 +434,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:8,
+        midRange:9,
         maxRange:30
     },
     {
@@ -401,6 +444,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:14,
+        midRange:15,
         maxRange:48
     },
     {
@@ -410,6 +454,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:21,
+        midRange:23,
         maxRange:72
     },
     {
@@ -419,6 +464,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:35,
+        midRange:37,
         maxRange:120
     },
     {
@@ -428,6 +474,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:50,
+        midRange:60,
         maxRange:198
     },
     {
@@ -437,6 +484,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:70,
+        midRange:75,
         maxRange:240
     },
     {
@@ -446,6 +494,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:5,
+        midRange:6,
         maxRange:9
     },
     {
@@ -455,6 +504,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:8,
+        midRange:9,
         maxRange:13
     },
     {
@@ -464,6 +514,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:15,
+        midRange:16,
         maxRange:21
     },
     {
@@ -473,6 +524,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:28,
+        midRange:29,
         maxRange:35
     },
     {
@@ -482,6 +534,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:40,
+        midRange:43,
         maxRange:52
     },
     {
@@ -491,6 +544,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:55,
+        midRange:60,
         maxRange:87
     },
     {
@@ -500,6 +554,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:85,
+        midRange:95,
         maxRange:127
     },
     {
@@ -509,6 +564,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:120,
+        midRange:135,
         maxRange:167 
     },
     {
@@ -518,6 +574,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:10,
+        midRange:11,
         maxRange:12 
     },
     {
@@ -527,6 +584,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:18,
+        midRange:19,
         maxRange:20 
     },
     {
@@ -536,6 +594,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:30,
+        midRange:33,
         maxRange:35 
     },
     {
@@ -545,6 +604,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:45,
+        midRange:50,
         maxRange:55 
     },
     {
@@ -554,7 +614,8 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:65,
-        maxRange: 80
+        midRange:70,
+        maxRange:80
     },
     {
         id:62,
@@ -563,6 +624,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:90,
+        midRange:110,
         maxRange:125 
     },
     {
@@ -572,6 +634,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:145,
+        midRange:160,
         maxRange:180
     },
     {
@@ -581,6 +644,7 @@ export const gagInfo = [
         prestige:'',
         organic:'',
         minRange:200,
+        midRange:210,
         maxRange:220
     },
 ]
