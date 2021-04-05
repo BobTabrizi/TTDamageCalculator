@@ -67,7 +67,10 @@
       }
   }
 
-  
+  .calculateButton{
+    margin-left: 35%;
+  }
+
 .dropdown-submenu {
   position: relative;
 }

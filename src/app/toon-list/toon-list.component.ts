@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Output, OnInit,EventEmitter } from '@angular/core';
 import { toons } from '../toons';
 import {gagInfo} from '../gagInfo';
 
@@ -8,6 +8,9 @@ import {gagInfo} from '../gagInfo';
   styleUrls: ['./toon-list.component.css']
 })
 export class ToonListComponent implements OnInit {
+
+  @Output() buttonClicked:EventEmitter<number> = new EventEmitter<number>();
+message:string = "Hello";
 
 toons = toons;
 gagInfo = gagInfo;
@@ -19,6 +22,29 @@ damage:number = 0;
 maxlimitReached:boolean = false;
 minlimitReached:boolean = false;
 
+
+calculateDamages(){
+
+let sumDamage = 0;
+
+for(let i = 0; i < toons.length; i++){
+
+  sumDamage += toons[i].midRange;
+
+}
+
+
+  return sumDamage;
+}
+
+clickButton(){
+
+
+ let totalDamage = this.calculateDamages();
+
+
+  this.buttonClicked.emit(totalDamage);
+}
 
 gagChoice(gagNumber:number,id:number): void {
 
