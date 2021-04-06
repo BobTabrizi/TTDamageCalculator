@@ -2,7 +2,7 @@ export const gagInfo = [
     {
         id:1,
         gag:'Feather',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -12,7 +12,7 @@ export const gagInfo = [
     {
         id:2,
         gag:'Megaphone',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -22,7 +22,7 @@ export const gagInfo = [
     {
         id:3,
         gag:'Lipstick',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -32,7 +32,7 @@ export const gagInfo = [
     {
         id:4,
         gag:'Bamboo Cane',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -42,7 +42,7 @@ export const gagInfo = [
     {
         id:5,
         gag:'Pixie Dust',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -52,7 +52,7 @@ export const gagInfo = [
     {
         id:6,
         gag:'Juggling Cubes',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -62,7 +62,7 @@ export const gagInfo = [
     {
         id:7,
         gag:'Confetti Cannon',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -72,7 +72,7 @@ export const gagInfo = [
     {
         id:8,
         gag:'High Dive',
-        gagType:'Toon-Up',
+        gagType:7,
         prestige:'',
         organic:'',
         minRange:0,
@@ -82,7 +82,7 @@ export const gagInfo = [
     {
         id:9,
         gag:'Banana Peel',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:18,
@@ -92,7 +92,7 @@ export const gagInfo = [
     {
         id:10,
         gag:'Rake',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:25,
@@ -102,7 +102,7 @@ export const gagInfo = [
     {
         id:11,
         gag:'Spring Board',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:40,
@@ -112,7 +112,7 @@ export const gagInfo = [
     {
         id:12,
         gag:'Marbles',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:55,
@@ -122,7 +122,7 @@ export const gagInfo = [
     {
         id:13,
         gag:'Quicksand',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:75,
@@ -132,7 +132,7 @@ export const gagInfo = [
     {
         id:14,
         gag:'Trapdoor',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:100,
@@ -142,7 +142,7 @@ export const gagInfo = [
     {
         id:15,
         gag:'Wrecking Ball',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:160,
@@ -152,7 +152,7 @@ export const gagInfo = [
     {
         id:16,
         gag:'TNT',
-        gagType:'Trap',
+        gagType:5,
         prestige:'',
         organic:'',
         minRange:220,
@@ -162,7 +162,7 @@ export const gagInfo = [
     {
         id:17,
         gag:'Dollar Bill',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -173,7 +173,7 @@ export const gagInfo = [
     {
         id:18,
         gag:'Small Magnet',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -184,7 +184,7 @@ export const gagInfo = [
     {
         id:19,
         gag:'5 Dollar Bill',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -195,7 +195,7 @@ export const gagInfo = [
     {
         id:20,
         gag:'Big Magnet',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -206,7 +206,7 @@ export const gagInfo = [
     {
         id:21,
         gag:'10 Dollar Bill',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -217,7 +217,7 @@ export const gagInfo = [
     {
         id:22,
         gag:'Hypno Goggles',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -228,7 +228,7 @@ export const gagInfo = [
     {
         id:23,
         gag:'50 Dollar Bill',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -239,7 +239,7 @@ export const gagInfo = [
     {
         id:24,
         gag:'Presentation',
-        gagType:'Lure',
+        gagType:4,
         prestige:'',
         organic:'',
         minRange:0,
@@ -250,7 +250,7 @@ export const gagInfo = [
     {
         id:25,
         gag:'Kazoo',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:3,
@@ -260,7 +260,7 @@ export const gagInfo = [
     {
         id:26,
         gag:'Bike Horn',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:5,
@@ -270,7 +270,7 @@ export const gagInfo = [
     {
         id:27,
         gag:'Whistle',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:9,
@@ -280,7 +280,7 @@ export const gagInfo = [
     {
         id:28,
         gag:'Bugle',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:14,
@@ -290,7 +290,7 @@ export const gagInfo = [
     {
         id:29,
         gag:'Aoogah',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:19,
@@ -300,7 +300,7 @@ export const gagInfo = [
     {
         id:30,
         gag:'Elephant Trunk',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:26,
@@ -310,7 +310,7 @@ export const gagInfo = [
     {
         id:31,
         gag:'Foghorn',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:35,
@@ -320,7 +320,7 @@ export const gagInfo = [
     {
         id:32,
         gag:'Opera Singer',
-        gagType:'Sound',
+        gagType:0,
         prestige:'',
         organic:'',
         minRange:55,
@@ -330,7 +330,7 @@ export const gagInfo = [
     {
         id:33,
         gag:'Squirting Flower',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:3,
@@ -340,7 +340,7 @@ export const gagInfo = [
     {
         id:34,
         gag:'Glass of Water',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:6,
@@ -350,7 +350,7 @@ export const gagInfo = [
     {
         id:35,
         gag:'Squirt Gun',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:10,
@@ -360,7 +360,7 @@ export const gagInfo = [
     {
         id:36,
         gag:'Water Balloon',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:18,
@@ -370,7 +370,7 @@ export const gagInfo = [
     {
         id:37,
         gag:'Seltzer Bottle',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:27,
@@ -380,7 +380,7 @@ export const gagInfo = [
     {
         id:38,
         gag:'Fire Hose',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:45,
@@ -390,7 +390,7 @@ export const gagInfo = [
     {
         id:39,
         gag:'Storm Cloud',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:60,
@@ -400,7 +400,7 @@ export const gagInfo = [
     {
         id:40,
         gag:'Geyser',
-        gagType:'Squirt',
+        gagType:2,
         prestige:'',
         organic:'',
         minRange:90,
@@ -410,87 +410,87 @@ export const gagInfo = [
     {
         id:41,
         gag:'Joy Buzzer',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:3,
         midRange:4,
-        maxRange:12
+        maxRange:4
     },
     {
         id:42,
         gag:'Rug',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:5,
         midRange:6,
-        maxRange:18
+        maxRange:6
     },
     {
         id:43,
         gag:'Balloon',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:8,
         midRange:9,
-        maxRange:30
+        maxRange:10
     },
     {
         id:44,
         gag:'Kart Battery',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:14,
         midRange:15,
-        maxRange:48
+        maxRange:16
     },
     {
         id:45,
         gag:'Taser',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:21,
         midRange:23,
-        maxRange:72
+        maxRange:24
     },
     {
         id:46,
         gag:'Broken TV',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:35,
         midRange:37,
-        maxRange:120
+        maxRange:40
     },
     {
         id:47,
         gag:'Tesla Coil',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:50,
-        midRange:60,
-        maxRange:198
+        midRange:55,
+        maxRange:66
     },
     {
         id:48,
         gag:'Lightning',
-        gagType:'Zap',
+        gagType:3,
         prestige:'',
         organic:'',
         minRange:70,
         midRange:75,
-        maxRange:240
+        maxRange:80
     },
     {
         id:49,
         gag:'Cupcake',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:5,
@@ -500,7 +500,7 @@ export const gagInfo = [
     {
         id:50,
         gag:'Fruit Pie Slice',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:8,
@@ -510,7 +510,7 @@ export const gagInfo = [
     {
         id:51,
         gag:'Cream Pie Slice',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:15,
@@ -520,7 +520,7 @@ export const gagInfo = [
     {
         id:52,
         gag:'Birthday Cake Slice',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:28,
@@ -530,7 +530,7 @@ export const gagInfo = [
     {
         id:53,
         gag:'Whole Fruit Pie',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:40,
@@ -540,7 +540,7 @@ export const gagInfo = [
     {
         id:54,
         gag:'Whole Cream Pie',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:55,
@@ -550,7 +550,7 @@ export const gagInfo = [
     {
         id:55,
         gag:'Birthday Cake',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:85,
@@ -560,7 +560,7 @@ export const gagInfo = [
     {
         id:56,
         gag:'Wedding Cake',
-        gagType:'Throw',
+        gagType:1,
         prestige:'',
         organic:'',
         minRange:120,
@@ -570,7 +570,7 @@ export const gagInfo = [
     {
         id:57,
         gag:'Flower Pot',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:10,
@@ -580,7 +580,7 @@ export const gagInfo = [
     {
         id:58,
         gag:'Sandbag',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:18,
@@ -590,7 +590,7 @@ export const gagInfo = [
     {
         id:59,
         gag:'Bowling Ball',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:30,
@@ -600,7 +600,7 @@ export const gagInfo = [
     {
         id:60,
         gag:'Anvil',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:45,
@@ -610,7 +610,7 @@ export const gagInfo = [
     {
         id:61,
         gag:'Big Weight',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:65,
@@ -620,7 +620,7 @@ export const gagInfo = [
     {
         id:62,
         gag:'Safe',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:90,
@@ -630,7 +630,7 @@ export const gagInfo = [
     {
         id:63,
         gag:'Boulder',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:145,
@@ -640,7 +640,7 @@ export const gagInfo = [
     {
         id:64,
         gag:'Grand Piano',
-        gagType:'Drop',
+        gagType:6,
         prestige:'',
         organic:'',
         minRange:200,

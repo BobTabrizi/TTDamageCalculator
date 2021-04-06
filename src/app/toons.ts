@@ -1,7 +1,8 @@
 export const toons = [
     {
         id:1,
-        gag:'',
+        gag:'Pick a gag!',
+        gagType:9,
         name:'Toon 1',
         prestige:'',
         organic:'',
@@ -11,7 +12,8 @@ export const toons = [
     },
     {
         id:2,
-        gag:'',
+        gag:'Pick a gag!',
+        gagType:9,
         name:'Toon 2',
         prestige:'',
         organic:'',
@@ -21,7 +23,8 @@ export const toons = [
     },
     {
         id:3,
-        gag:'',
+        gag:'Pick a gag!',
+        gagType:9,
         name:'Toon 3',
         prestige:'',
         organic:'',
@@ -31,7 +34,8 @@ export const toons = [
     },
     {
         id:4,
-        gag:'',
+        gag:'Pick a gag!',
+        gagType:9,
         name:'Toon 4',
         prestige:'',
         organic:'',
