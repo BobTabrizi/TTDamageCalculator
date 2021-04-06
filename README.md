@@ -1,8 +1,11 @@
 # TTDamageCalculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+A damage calculator that simulates Toontown battle mechanics for a single turn. Current version is for the Corporate Clash server.
+
 
 ## Development server
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
