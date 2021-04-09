@@ -1,4 +1,5 @@
 
+
 <div class = "wrapper">
 <div class = "grid grid-pad">
 <div class = "column" *ngFor = "let toon of toons" class = "col-1-4">
@@ -119,11 +120,12 @@
        
       </ul>
   
-      <img  class="images" src="assets/images/{{toon.gag}}.jpg">
-      <p>{{toon.gag}}</p>
+      <img  class="images" src="assets/images/{{toon.gag}}.jpg" style = "width:100px;height:100px">
+      <p style = "margin-left: 10%">{{toon.gag}}</p>
     <!--- <p>Gag Damage: {{toon.maxRange}}</p> --->
 
 </div>
+<div style = "margin-left: 10%;">
 <p>Gag Damage</p>
   <div class = "row">
     <span class="input-group-btn">
@@ -148,16 +150,23 @@
 </span>
 
 </div>
+
 <div class="form-check">
-  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-  <label class="form-check-label" for="exampleCheck1">Prestige</label>
+  <input type="checkbox" class="form-check-input" id="CheckBox" [checked] = "toon.prestige" 
+(change) = "handlePrestige(toon.id)"
+  >
+  <label class="form-check-label" for="CheckBox">Prestige</label>
+
 
 </div>
 
+
+
+</div>
 </div>
 
 
-<button class = "calculateButton" (click) = "clickButton()">click me</button>
+<button class = "calculateButton" (click) = "clickButton()">Calculate Damage</button>
 </div>
 
 </div>

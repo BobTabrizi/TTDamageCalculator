@@ -22,6 +22,26 @@ damage:number = 0;
 maxlimitReached:boolean = false;
 minlimitReached:boolean = false;
 
+IsPrestige = false;
+
+
+handlePrestige(id:number) :void{
+
+  toons[id - 1].prestige = !toons[id - 1].prestige;
+
+  if(toons[id - 1].prestige){
+  toons[id - 1].minRange = toons[id - 1].prestigeMinRange;
+  toons[id - 1].midRange = toons[id - 1].prestigeMidRange;
+  toons[id - 1].maxRange = toons[id - 1].prestigeMaxRange;
+  }
+  else{
+    toons[id - 1].minRange = toons[id - 1].normalMinRange;
+    toons[id - 1].midRange = toons[id - 1].normalMidRange;
+    toons[id - 1].maxRange = toons[id - 1].normalMaxRange;
+  }
+
+}
+
 
 calculateDamages(){
 
@@ -33,7 +53,8 @@ for(var i =0; i < gagCounts.length; i++){
 }
 
 
-
+//TODO Add a loop here to search for
+//prestiges and mark them accordingly.
 
 let LureActive = false;
 let SoakActive = false;
@@ -120,8 +141,19 @@ if(gagCounts[3].length !==0){
 let sumDamage = 0;
 let tempDamage = 0;
 
+//Lure Knockback standard
+let knockBack = 1;
+
 for(var i = 0; i < gagCounts.length; i++){
 
+  knockBack = 1;
+  if(i === 1 || i === 2){
+    
+    if(LureActive){
+      knockBack = 1.5;
+    }
+
+  }
   console.log(gagCounts[i].length);
   
   if(gagCounts[i].length > 1){
@@ -133,14 +165,14 @@ for(var i = 0; i < gagCounts.length; i++){
     }
     //Add bonus multiplier
 
-    tempDamage = Math.ceil(tempDamage + tempDamage * 0.20);
+    tempDamage = Math.ceil(tempDamage + tempDamage * 0.20 * knockBack);
 
     sumDamage += tempDamage;
     tempDamage = 0;
   }
 
   if(gagCounts[i].length === 1){
-    sumDamage += gagCounts[i][0];
+    sumDamage += gagCounts[i][0] * knockBack;
   }
 
 
@@ -170,10 +202,13 @@ gagChoice(gagNumber:number,id:number): void {
 
   //console.log(id);
   toons[id - 1].gag = gagInfo[gagNumber - 1].gag;
-  toons[id - 1].midRange = gagInfo[gagNumber - 1].midRange;
-  toons[id - 1].maxRange = gagInfo[gagNumber -1].maxRange;
-  toons[id - 1].minRange = gagInfo[gagNumber -1].minRange;
+  toons[id - 1].midRange = toons[id - 1].normalMidRange = gagInfo[gagNumber - 1].midRange;
+  toons[id - 1].maxRange = toons[id - 1].normalMaxRange = gagInfo[gagNumber -1].maxRange;
+  toons[id - 1].minRange = toons[id - 1].normalMinRange = gagInfo[gagNumber -1].minRange;
   toons[id - 1].gagType = gagInfo[gagNumber - 1].gagType;
+  toons[id - 1].prestigeMinRange = gagInfo[gagNumber - 1].prestigeMinRange;
+  toons[id - 1].prestigeMidRange = gagInfo[gagNumber - 1].prestigeMidRange;
+  toons[id - 1].prestigeMaxRange = gagInfo[gagNumber - 1].prestigeMaxRange;
 }
 
 
