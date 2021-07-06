@@ -2,8 +2,9 @@
 
 <div class = "wrapper">
 <div class = "grid grid-pad">
-<div class = "column" *ngFor = "let toon of toons" class = "col-1-4">
-
+  <div class = "row" style = "margin-bottom: 5%;">
+<div class = "col d-flex text-center" *ngFor = "let toon of toons" >
+<div class = "ToonWrapper">
 
 <h3>
 
@@ -18,7 +19,7 @@
 
 
 <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Choose Gag
     </button>
     <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -117,15 +118,17 @@
         
        
       </ul>
-  
-      <img  class="images" src="assets/images/{{toon.gag}}.jpg" style = "width:100px;height:100px">
-      <p style = "margin-left: 10%">{{toon.gag}}</p>
+  <div class = "gagWrapper">
+      <img  class="images" src="assets/images/{{toon.gag}}.jpg" style = "width:100px;height:100px;border-radius: 15px;">
+   
+    </div>
     <!--- <p>Gag Damage: {{toon.maxRange}}</p> --->
-
+    <div class = "gagDescription">{{toon.gag}}</div>
 </div>
-<div style = "margin-left: 10%;">
-<p>Gag Damage</p>
-  <div class = "row">
+<hr>
+<div class = "GagDamage">
+<div style = "font-size:medium;margin-bottom: 5%;">Gag Damage</div>
+  <div class = "buttonWrapper">
     <span class="input-group-btn">
       
         <button type="button" class="btn btn-danger btn-number"  [disabled] = "toon.midRange == toon.minRange"
@@ -145,10 +148,11 @@
                 +
         </button>
    
-</span>
+    </span>
 
 </div>
 
+</div>
 <div class="form-check">
   <input type="checkbox" class="form-check-input" id="CheckBox" [checked] = "toon.prestige" 
 (change) = "handlePrestige(toon.id)"
@@ -158,13 +162,13 @@
 
 </div>
 
-
-
 </div>
 </div>
-
-
-<button class = "calculateButton" (click) = "clickButton()">Calculate Damage</button>
 </div>
+
+
+  <button class = "calculateButton" (click) = "clickButton()">Calculate Damage</button>
+  </div>
+
 
 </div>

@@ -1,6 +1,9 @@
-
-
-.damageResult{
-margin-left: 35%;
-font-size: 25px;
+.calculatorContent {
+  display: flex;
+  align-items: center;
+}
+.damageResult {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
 }

@@ -1,81 +1,101 @@
-[class*='col-'] {
-    float: left;
-  }
-  *, *:after, *:before {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
+[class*="col-"] {
+  display: flex;
+  flex-direction: row;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  [class*='col-'] {
-    padding-right: 20px;
-    padding-bottom: 20px;
-  }
-  [class*='col-']:last-of-type {
-    padding-right: 0;
-  }
-  .grid {
-    margin: 0;
-    display: inline-block;
+[class*="col-"] {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+[class*="col-"]:last-of-type {
+  padding-right: 0;
+}
+.grid {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+}
+
+.module {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: #607d8b;
+  background-color: rgb(0, 120, 215);
+  border-radius: 2px;
+}
+h4 {
+  position: relative;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.module:hover {
+  background-color: #eee;
+  background-color: #ccc;
+  cursor: pointer;
+  color: #607d8b;
+}
+.grid-pad {
+  padding: 20px;
+}
+.grid-pad > [class*="col-"]:last-of-type {
+}
+@media (max-width: 600px) {
+  .module {
+    font-size: 10px;
+    max-height: 75px;
   }
   .col-1-4 {
-    width: 25%;
+    width: 50%;
+  }
+}
+@media (max-width: 1024px) {
+  .grid {
+    margin: 0;
   }
   .module {
-      padding: 20px;
-      text-align: center;
-      color: #eee;
-      max-height: 120px;
-      min-width: 120px;
-      background-color: #607D8B;
-    background-color: rgb(0,120,215);
-      border-radius: 2px;
+    min-width: 60px;
   }
-  h4 {
-    position: relative;
-  }
-  .wrapper{
-    display: flex; justify-content:center; align-items:center;
-  }
-  .module:hover {
-    background-color: #EEE;
-    background-color: #CCC;
-    cursor: pointer;
-    color: #607d8b;
-  }
-  .grid-pad {
-    padding: 10px 0;
-  }
-  .grid-pad > [class*='col-']:last-of-type {
-    padding-right: 20px;
-  }
-  @media (max-width: 600px) {
-      .module {
-        font-size: 10px;
-        max-height: 75px;
-    }
-    .col-1-4 {
-      width: 50%;
-    }
-  }
-  @media (max-width: 1024px) {
-      .grid {
-        margin: 0;
-      }
-      .module {
-        min-width: 60px;
-      }
-  }
+}
 
-  .calculateButton{
-    margin-left: 38%;
-  }
+.calculateButton {
+  display: flex;
+  margin: auto;
+  position: relative;
+  background-color: #35b3e5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255, 0.1);
+}
 
 .dropdown-submenu {
   position: relative;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -6px;
@@ -84,13 +104,11 @@
   border-radius: 0 6px 6px 6px;
 }
 
-.dropdown-submenu:hover>.dropdown-menu {
+.dropdown-submenu:hover > .dropdown-menu {
   display: block;
 }
 
-
-
-.dropdown-submenu>a:after {
+.dropdown-submenu > a:after {
   display: block;
   content: " ";
   float: right;
@@ -104,7 +122,7 @@
   margin-right: -10px;
 }
 
-.dropdown-submenu:hover>a:after {
+.dropdown-submenu:hover > a:after {
   border-left-color: #fff;
 }
 
@@ -112,21 +130,65 @@
   float: none;
 }
 
-.dropdown-submenu.pull-left>.dropdown-menu {
+.dropdown-submenu.pull-left > .dropdown-menu {
   left: -100%;
   margin-left: 10px;
 
   border-radius: 6px 0 6px 6px;
 }
 
+.dropdown-toggle {
+  width: 70%;
+  margin: auto;
+}
+
 .input-number {
-  width:25%;
+  width: 25%;
 }
 
-.images{
-  width:40%;
-  height:40%;
-  margin-left: 10%;
-  margin-top:10%
+.images {
+  margin: auto;
+  width: 40%;
+  height: 40%;
+  margin-top: 10%;
 }
 
+.ToonWrapper {
+  position: relative;
+}
+
+.toonItems {
+  margin-left: 500px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.GagDamage {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gagWrapper {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  background-color: gainsboro;
+  border-radius: 25px;
+  border-color: burlywood;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.gagDescription {
+  font-size: large;
+  color: black;
+  font-weight: 600;
+}
